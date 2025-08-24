@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=6 bash upm/scripts/train_onlyclip.sh --num_dummies 0 --lw_wattn 0 --results_root test_0110_only_clip --model_ema --ema_decay 0.8 --seed 2018 --span_loss_coef 1 --label_loss_coef 1
