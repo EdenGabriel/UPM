@@ -23,7 +23,7 @@ Please refer to [UMT](https://github.com/TencentARC/UMT) for more details.
 Please refer to [QD-DETR](https://github.com/wjun0830/QD-DETR) for more details.
 
 ### 🔧Training and Evaluation
-==The full repo is available at [huggingface.co/J-i-n/UPM](https://huggingface.co/J-i-n/UPM) and includes checkpoints, logs, features, and additional resources.==
+**The full repo is available at [huggingface.co/J-i-n/UPM](https://huggingface.co/J-i-n/UPM) and includes checkpoints, logs, features, and additional resources.**
 - Train(Take `QVHighlights` as an example)
 ```python 
 bash upm/scripts/train.sh 
