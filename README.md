@@ -1,16 +1,16 @@
-[***] Learning Unified Patterns of Multimodalities for Video Temporal Grounding
+[PR 2025 Accepted] Learning Unified Patterns of Multimodalities for Video Temporal Grounding
 
 **UPM**
 ===
 
 <!-- [![Static Badge](https://img.shields.io/badge/arxiv-2404.09263-red)](https://arxiv.org/abs/2404.09263) -->
-<!--[![Static Badge](https://img.shields.io/badge/LICENSE-blue)](https://github.com/EdenGabriel/TaskWeave/blob/master/LICENSE)-->
+[![Static Badge](https://img.shields.io/badge/LICENSE-blue)](https://github.com/EdenGabriel/UPM/blob/master/LICENSE)
 ![GitHub Repo stars](https://img.shields.io/github/stars/EdenGabriel/UPM)
 ![GitHub forks](https://img.shields.io/github/forks/EdenGabriel/UPM)
 
 ### News
+- [2025/09] Our paper is accepted by Pattern Recognition.
 - [2025/08] We release the code about UPM.
-<!-- - [2024/02/27] Our paper is accepted by CVPR2024.-->
 
 ### ✨Introduction
 A fundamental challenge within the multimodal learning field lies in the heterogeneity of data across modalities (video, text, and audio). It leads to semantic gaps and cognitive offset. However, most existing methods have not yet effectively address this challenge. Inspired by the multi-sensory system of the brain, we introduce a novel architecture for Video Temporal Grounding (VTG) that learns the Unified Pattern of Multimodalities (UPM). It effectively captures representations with the unified pattern across diverse modalities to enhance semantic understanding. We utilize the proposed modality co-occurrence engine to capture unified pattern representations for diverse modalities. Different from the commonly used cross-attention, we propose an efficient inter-modality interaction mechanism with lower computational cost and fewer parameters to improve multimodal interaction efficiency. Moreover, we develop a novel consciousness caption experiment inspired by human intelligence to enrich the evaluation standard for multimodal alignment. Unlike prior most models, our model integrates common information carriers in the real world (video, text, and audio) and achieves impressive results on five datasets for different downstream tasks.
